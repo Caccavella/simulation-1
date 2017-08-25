@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  font-family: 'opensans';
+  letter-spacing: 1px;
+}
+.App-header {
+  display: flex;
+  height: 70px;
+  padding: 20px;
+  color: white;
+  background: #ab2a19;
+  align-items: center;
+  padding-left: 30%;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.app-logo {
+  height: 80px;
+  background: #ab2a19;
+  padding-right: 15px;
+}
+.shelf {
+  display: flex;
+  flex-direction: column;
+  background: #d34735;
+  border-radius: 5px;
+  height: 75px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px 29vw 20px 29vw;
+}
+
+
+@font-face {
+  font-family: 'opensans';
+  src: url('./Open_Sans/OpenSans-Regular.ttf');
+}
